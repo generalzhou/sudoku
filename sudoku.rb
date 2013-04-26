@@ -75,6 +75,12 @@ class Board
       puts "\n__________________________________"
     end
   end
+
+  def clone
+    new_board = @board.map {|row| row.clone}
+    Board.new.@board = new_board
+  end
+
   
 end
 

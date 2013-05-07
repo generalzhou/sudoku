@@ -1,6 +1,3 @@
-# NOT COMPLETE
- 
- 
 require 'pry'
 require 'debugger'
 class Sudoku
